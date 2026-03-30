@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Weather AI App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌤 Smart Weather App</h1>
+
+    <input type="text" id="city" placeholder="Enter city name">
+
+    <button onclick="searchWeather()">Search</button>
+    <button onclick="startVoice()">🎤</button>
+    <button onclick="getLocationWeather()">📍</button>
+
+    <div id="result"></div>
+
+    <!-- 🤖 AI Assistant -->
+    <div class="chatbox">
+        <h3>🤖 AI Assistant</h3>
+
+        <div id="chat"></div>
+
+        <input type="text" id="userInput" placeholder="Ask something...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
